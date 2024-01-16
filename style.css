@@ -1,0 +1,309 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+.major {
+  height: 100vh;
+  width: 100%;
+  background-image: url(./Waleed-best.png);
+  size: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 45px;
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-bottom: auto;
+}
+.logo {
+  color: whitesmoke;
+  font-size: 35px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
+nav ul li a {
+  color: blanchedalmond;
+  text-decoration: none;
+  font-weight: bolder;
+}
+nav ul li a:hover {
+  color: tomato;
+  transition: 0.4s ease-in;
+}
+.content {
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-50%);
+  transform: translateX(80%);
+}
+h1 {
+  color: blanchedalmond;
+  margin: 20px 0px 20px;
+  font-size: 65px;
+}
+h3 {
+  color: blanchedalmond;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+h4 {
+  color: blanchedalmond;
+  letter-spacing: 2px;
+  font-size: 20pxs;
+}
+.fade-in {
+  -webkit-animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.about-me {
+  width: 100%;
+  padding: 100px 0px;
+  background-color: black;
+}
+.about-me img {
+  height: auto;
+  width: 430px;
+  margin-left: 0px;
+}
+
+.about-text {
+  width: 550px;
+}
+
+.main {
+  width: 1130px;
+  max-width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.about-text h2 {
+  color: antiquewhite;
+  font-size: 55px;
+  text-transform: capitalize;
+}
+.about-text h5 {
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+}
+.Dev {
+  color: #a5040b;
+  cursor: pointer;
+}
+.Analyst {
+  color: blue;
+  cursor: pointer;
+}
+
+.about-text p {
+  color: aliceblue;
+  margin-top: 10px;
+  letter-spacing: 1px;
+  line-height: 22px;
+  font-size: small;
+  margin-bottom: 45px;
+}
+.Talk {
+  background-color: red;
+  border-radius: 13px;
+  color: black;
+  border-bottom: 5px;
+  text-shadow: 1px 1px #5ec1cb;
+  padding: 8px 10px;
+}
+.Talk:hover {
+  color: aqua;
+  background-color: white;
+  transition: 0.4s ease-in-out;
+}
+.services {
+  background-color: black;
+  width: 100%;
+  padding: 100px 0px;
+}
+.title {
+  color: antiquewhite;
+  font-size: 55pxs;
+  text-align: center;
+}
+
+.card i {
+  color: red;
+  align-items: center;
+  display: block;
+  font-size: 25px;
+  padding: 20px 35px;
+  text-align: center;
+}
+.card {
+  text-align: center;
+  background: #191919;
+  overflow: hidden;
+  border-radius: 20px;
+  padding: 10px 15px;
+  margin: 10px;
+  position: relative;
+}
+
+.card h5 {
+  color: white;
+  cursor: pointer;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.des p {
+  color: antiquewhite;
+  font-size: small;
+  word-spacing: 4px;
+  margin-bottom: 15px;
+  text-align: center;
+  margin-left: 30px;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+.button {
+  background-color: red;
+  border-radius: 13px;
+  color: black;
+  border-bottom: 5px;
+  text-shadow: 1px 1px #5ec1cb;
+  padding: 8px 10px;
+  transition: 0.4s ease-in;
+  text-decoration: none;
+}
+.button:hover {
+  color: aqua;
+  background-color: white;
+  transition: 0.4s ease-in-out;
+}
+
+.Contact-Me {
+  width: 100%;
+  height: 290px;
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.Contact-Me p {
+  color: antiquewhite;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  background-color: black;
+}
+.button-2 {
+  background-color: red;
+  border-radius: 30px;
+  color: black;
+  border-bottom: 5px;
+  text-shadow: 1px 1px #5ec1cb;
+  padding: 13px 30px;
+  transition: 0.4s ease-in;
+  text-decoration: none;
+}
+.button-2:hover {
+  color: aqua;
+  background-color: white;
+  transition: 0.4s ease-in-out;
+}
+
+.improve {
+  border-radius: 20px;
+  background-color: black;
+}
+.Succesful-Projects .sucess {
+  text-align: center;
+}
+.contacts {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+.mail {
+  color: white;
+  text-decoration: none;
+}
+.mail:hover {
+  transition: 0.7s ease-in;
+  color: red;
+}
+.number:hover {
+  transition: 0.7s ease-in;
+  color: red;
+  cursor: pointer;
+}
+.linkedin {
+  color: white;
+  cursor: pointer;
+  
+}
+.linkedin:hover {
+  transition: 0.7s ease-in;
+  color: red;
+}
+.contacts p {
+  color: wheat;
+  text-align: center;
+}
+/* .fa-brands fa-linkedin {
+  font-size: 20px;
+  display: block;
+  align-items: center;
+} */
+.logo-link{
+  color: whitesmoke;
+  font-size: 35px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  text-decoration: none;
+
+}
+/* .logo-link:hover{
+  color: red;
+  transition: o.4s ease-in;
+} */
+.logo a:hover{
+  color: red;
+  transition: 0.6s ease-in;
+}
